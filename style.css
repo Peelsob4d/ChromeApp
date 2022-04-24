@@ -1,0 +1,46 @@
+.hidden {
+  display: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body > div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+body > div > * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body > div > h2 {
+  font-size: 120px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+body > div > h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+#backgroundImg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  filter: brightness(0.3);
+}
